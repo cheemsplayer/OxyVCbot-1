@@ -6,6 +6,13 @@ RUN pip3 install -U pip
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 RUN npm i -g npm
+RUN pip3 install -U youtube-dl
+RUN pip3 install --upgrade youtube-dl
+RUN tee /usr/local/bin/youtube-dl >/dev/null
+RUN chmod a+x /usr/local/bin/youtube-dl
+RUN cd /
+RUN git clone https://github.com/OxyNotOp/OxyVCbot.git
+RUN cd OxyVCbot
 RUN mkdir /app/
 WORKDIR /app/
 COPY . /app/
