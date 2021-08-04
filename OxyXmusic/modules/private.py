@@ -33,12 +33,12 @@ def _start(client, message):
                         "➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "❤️ About Me", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "❤️ About Me", url=f"https://telegra.ph/Wonder-Gurl-06-24"), 
                     InlineKeyboardButton(
                         "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🔥 My Owner 🔥", url=f"https://t.me/FallneAngel_xD")
+                        "🔥 My Owner 🔥", url=f"https://t.me/Dad_s_brave_girl")
                 ]
             ]
         ),
@@ -94,9 +94,9 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '❤️ About Me', url=f"https://t.me/{UPDATES_CHANNEL}"),
+            [InlineKeyboardButton(text = '❤️ About Me', url=f"https://telegra.ph/Wonder-Gurl-06-24"),
              InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🔥 My Owner 🔥', url=f"https://t.me/FallenAngel_xD")],
+            [InlineKeyboardButton(text = '🔥 My Owner 🔥', url=f"https://t.me/Dad_s_brave_girl")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
