@@ -428,7 +428,7 @@ async def m_cb(b, cb):
         else:
             queues.task_done(chet_id)
 
-            if if queues.is_empty(chet_id):
+            if queues.is_empty(chet_id):
                 callsmusic.pytgcalls.leave_group_call(chet_id)
 
                 await cb.message.edit("- No More Playlist..\n- Leaving VC!")
