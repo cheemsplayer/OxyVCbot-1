@@ -20,7 +20,7 @@ from OxyXmusic.config import que
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from OxyXmusic.function.admins import set
+from OxyXmusic.function.admins import admins
 from OxyXmusic.helpers.channelmusic import get_chat_id
 from OxyXmusic.helpers.decorators import authorized_users_only, errors
 from OxyXmusic.helpers.filters import command, other_filters
