@@ -17,6 +17,7 @@
 # Modified by @InukaAsith
 
 # Added /auth and /deauth by azimazizov9150 <https://github.com/azimazizov9150>
+
 from asyncio import QueueEmpty
 from OxyXmusic.config import que
 from pyrogram import Client, filters
@@ -28,7 +29,6 @@ from OxyXmusic.helpers.decorators import authorized_users_only, errors
 from OxyXmusic.helpers.filters import command, other_filters
 from OxyXmusic.services.callsmusic import callsmusic
 from OxyXmusic.services.queues import queues
-
 
 # By azimazizov9150 <https://github.com/azimazizov9150
 
